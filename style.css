@@ -26,6 +26,10 @@ a {
     display: flex;
 }
 
+ul.left-links {
+    padding-left: 0;
+}
+
 .right-links a {
     font-size: 18px;
     color: #E5E7EB;
@@ -38,7 +42,7 @@ a {
     font-weight: 900;
 }
 
-.header {
+.header, .awesome {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -46,4 +50,45 @@ a {
 
 .bg-color-dark {
     background-color: #1F2937;
+}
+
+.awesome {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.awesome-right, .awesome-left {
+    flex: 1;
+}
+
+.awesome-left .text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome-left .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.awesome-left button {
+    border: 0;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome-right {
+    display: flex;
 }
